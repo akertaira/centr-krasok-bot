@@ -1,35 +1,9 @@
-# Виртуальное окружение
-venv/
+﻿venv/
 venv312/
 env/
-ENV/
-
-# Файлы с секретами
-.env
-*.env
-
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# IDE
+*.pyc
+.env
+*.log
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Логи
-*.log
-*.log.*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Другое
-.pytest_cache/
-.coverage
-htmlcov/
